@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Simple YouTube Search",
+    "description": "A Simple YouTube Search Application using Expo!",
+    "slug": "sample-youtube-search",
+    "privacy": "public",
+    "sdkVersion": "22.0.0",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "primaryColor": "#E62117",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff",
+      "hideExponentText": true
+    },
+    "packagerOpts": {
+      "assetExts": ["ttf", "mp4"]
+    },
+    "ios": {
+      "supportsTablet": true,
+      "buildNumber": "1"
+    },
+
+    "android": {
+       "package": "com.kartikeya.simpleyoutubesearch",
+       "versionCode": 1,
+       "permissions": []
+    }
+  }
+}
